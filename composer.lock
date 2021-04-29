@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1aee80ef8b56d918e73e6b1481a210b7",
+    "packages": [
+        {
+            "name": "pierreminiggio/github-action-run",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/php-github-action-run.git",
+                "reference": "23a96a4683179d01d65c4a6e227129c8594aa3b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run/zipball/23a96a4683179d01d65c4a6e227129c8594aa3b5",
+                "reference": "23a96a4683179d01d65c4a6e227129c8594aa3b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0",
+                "pierreminiggio/github-statuses-enum": "9999999-dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\GithubActionRun\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/pierreminiggio/php-github-action-run/issues",
+                "source": "https://github.com/pierreminiggio/php-github-action-run/tree/1.0.0"
+            },
+            "time": "2021-04-29T18:50:47+00:00"
+        },
+        {
+            "name": "pierreminiggio/github-statuses-enum",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/php-github-statuses-enum.git",
+                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-statuses-enum/zipball/1f26a833b305cbd3423175dc72adca1429ad0d42",
+                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\GithubStatusesEnum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/pierreminiggio/php-github-statuses-enum/issues",
+                "source": "https://github.com/pierreminiggio/php-github-statuses-enum/tree/1.0.0"
+            },
+            "time": "2021-04-28T17:16:21+00:00"
+        },
+        {
+            "name": "pierreminiggio/github-user-agent",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/php-github-user-agent.git",
+                "reference": "b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-user-agent/zipball/b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab",
+                "reference": "b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\GithubUserAgent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/pierreminiggio/php-github-user-agent/issues",
+                "source": "https://github.com/pierreminiggio/php-github-user-agent/tree/1.0.0"
+            },
+            "time": "2021-04-28T19:47:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pierreminiggio/github-user-agent": 20,
+        "pierreminiggio/github-statuses-enum": 20,
+        "pierreminiggio/github-action-run": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
