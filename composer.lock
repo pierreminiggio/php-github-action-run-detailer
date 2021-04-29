@@ -40,7 +40,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run/tree/main"
+                "source": "https://github.com/pierreminiggio/php-github-action-run/tree/1.0.1"
             },
             "time": "2021-04-29T23:15:47+00:00"
         },
